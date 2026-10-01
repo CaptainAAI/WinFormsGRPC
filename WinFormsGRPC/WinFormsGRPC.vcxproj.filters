@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Form1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CppCLR_WinFormsProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Form1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="gRPC">
+      <UniqueIdentifier>{6B1E2C4A-3F0D-4C8E-9A51-2D7B8E9F0A11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gRPC\generated">
+      <UniqueIdentifier>{7C2F3D5B-401E-4D9F-AB62-3E8C9FA01B22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gRPC\triton">
+      <UniqueIdentifier>{8D3A4E6C-512F-4EA0-BC73-4F9DA0B12C33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\library\hasilGRPC\TritonVision.h"><Filter>gRPC</Filter></ClInclude>
+    <ClInclude Include="..\..\library\hasilGRPC\triton\common.h"><Filter>gRPC\triton</Filter></ClInclude>
+    <ClInclude Include="..\..\library\hasilGRPC\triton\grpc_client.h"><Filter>gRPC\triton</Filter></ClInclude>
+    <ClInclude Include="..\..\library\hasilGRPC\triton\ipc.h"><Filter>gRPC\triton</Filter></ClInclude>
+    <ClInclude Include="..\..\library\hasilGRPC\generated\grpc_service.grpc.pb.h"><Filter>gRPC\generated</Filter></ClInclude>
+    <ClInclude Include="..\..\library\hasilGRPC\generated\grpc_service.pb.h"><Filter>gRPC\generated</Filter></ClInclude>
+    <ClInclude Include="..\..\library\hasilGRPC\generated\health.grpc.pb.h"><Filter>gRPC\generated</Filter></ClInclude>
+    <ClInclude Include="..\..\library\hasilGRPC\generated\health.pb.h"><Filter>gRPC\generated</Filter></ClInclude>
+    <ClInclude Include="..\..\library\hasilGRPC\generated\model_config.grpc.pb.h"><Filter>gRPC\generated</Filter></ClInclude>
+    <ClInclude Include="..\..\library\hasilGRPC\generated\model_config.pb.h"><Filter>gRPC\generated</Filter></ClInclude>
+    <ClCompile Include="..\..\library\hasilGRPC\TritonVision.cpp"><Filter>gRPC</Filter></ClCompile>
+    <ClCompile Include="..\..\library\hasilGRPC\triton\common.cc"><Filter>gRPC\triton</Filter></ClCompile>
+    <ClCompile Include="..\..\library\hasilGRPC\triton\grpc_client.cc"><Filter>gRPC\triton</Filter></ClCompile>
+    <ClCompile Include="..\..\library\hasilGRPC\generated\grpc_service.grpc.pb.cc"><Filter>gRPC\generated</Filter></ClCompile>
+    <ClCompile Include="..\..\library\hasilGRPC\generated\grpc_service.pb.cc"><Filter>gRPC\generated</Filter></ClCompile>
+    <ClCompile Include="..\..\library\hasilGRPC\generated\health.grpc.pb.cc"><Filter>gRPC\generated</Filter></ClCompile>
+    <ClCompile Include="..\..\library\hasilGRPC\generated\health.pb.cc"><Filter>gRPC\generated</Filter></ClCompile>
+    <ClCompile Include="..\..\library\hasilGRPC\generated\model_config.grpc.pb.cc"><Filter>gRPC\generated</Filter></ClCompile>
+    <ClCompile Include="..\..\library\hasilGRPC\generated\model_config.pb.cc"><Filter>gRPC\generated</Filter></ClCompile>
+    <None Include="GrpcOpenCV.props" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
